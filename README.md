@@ -6,7 +6,7 @@ This template provides a minimal setup.
 
 Reset repo history:
 
-git clone "https://github.com/YOU/react-starter-basic your-new-project"
+git clone 
 
 cd your-new-project 
 rm -rf .git 
