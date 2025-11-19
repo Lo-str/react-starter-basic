@@ -1,6 +1,6 @@
 # Basic React Template
 
-This template provides a minimal setup to get React working in Vite.
+This template provides a minimal setup.
 
 # Memo
 
