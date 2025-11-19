@@ -1,0 +1,22 @@
+@use "./utils/vars" as v;
+
+@mixin flex($direction, $justify, $align, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+}
+
+@mixin card {
+  background-color: $color-surface;
+  border-radius: v.$rd_8;
+  box-shadow: $shw-soft;
+  padding: $sp_10;
+}
+
+@mixin heading($size) {
+  font-family: $ft-heading;
+  font-size: $size;
+  letter-spacing: v.$sp_01;
+}
